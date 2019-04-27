@@ -1,0 +1,27 @@
+{
+  "name": "@daisy-electronics/pin-converter",
+  "version": "1.0.0",
+  "description": "Abstraction allowing use of Raspberry Pi pin names like bcm4, gpio4, physical7, wiringPi4, etc.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node ./generate-mapping",
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daisy-electronics/pin-converter.git"
+  },
+  "keywords": [
+    "rpi",
+    "wiringpi",
+    "raspberry",
+    "pi",
+    "pins"
+  ],
+  "author": "Kothique Félixx <kothique@protonmail.ch>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/daisy-electronics/pin-converter/issues"
+  },
+  "homepage": "https://github.com/daisy-electronics/pin-converter#readme"
+}
